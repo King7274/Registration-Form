@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel ="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
+   
+   
+    
+    <title>Hello Form</title>
+</head>
+
+    
+    <div class="header">
+            <h1 class="sample">SAMPLE</h1>
+    </div>
+    <div class = "titles">
+        Student Enrollment Form
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="line"></div>
+            <form class="form">
+                <label class="label-style"> Name:      </label>
+                <input class="input-style" type="text" id="name" name="name" ><br>
+
+                <label class="label-style"> Email:    </label>
+                <input class="input-style" type="text" id="email" name="email"><br>
+
+                <label class="label-style"> Website:  </label>
+                <input class="input-style" type="text" id="Website" name="Website"><br>
+                
+                <label class="label-style">Image</label>
+                <input class="input-style" type="file" id="image-input" accept="image/*">
+                
+
+                <label class="input-style label-style" >Gender:</label>
+                <input class="input-style" type="radio" id="male" name="male" value="HTML">
+                 <label class="input-style">Male</label>
+                 
+
+                 <input class="input-style" type="radio" id="female" name="female" value="HTML">
+                 <label class="input-style">Female</label><br>
+
+                 <label class="label-style input-style" > Skill:</label>
+
+                 <input type="checkbox" id="java" name="java" value="">
+                 <label class="input-style" > JAVA</label>
+
+                 <input class="input-style" type="checkbox" id="html" name="html" value="">
+                 <label > HTML</label>
+
+                 <input class="input-style" type="checkbox" id="css" name="css" value="">
+                 <label > CSS</label>
+
+                 
+
+            </form>
+
+           
+            <button class="btn  button-space"   
+               onclick="profile()"
+            style="background-color: green;"> Enroll Student</button>
+            <button class="btn button-space">Clear</button>
+            
+            
+        </div>
+       
+       
+        <div class="column">
+
+
+            <div class="card">
+                <div>
+                    <img id="I" src="image/yuvi.png" alt="King" style="width:100%">
+                </div>
+                <div id="image-container"></div>
+                <div>
+                <h1 id="N">Name: </h1>
+                <p class="title">Gender:</p>
+               <p id="E">Email:</p>
+               <p id="S">Skill:</p>
+               <p id="W">Website:</p>
+              
+                
+            </div>
+              </div>
+          </div>
+</div>
+
+    <script src="Image/javasxript.js"></script>
+   
+</body>
+</html>
